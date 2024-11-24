@@ -1,0 +1,165 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Container */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header with Red Background */
+header {
+    background: red;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* About Section */
+#about {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.2em;
+}
+
+/* Education Section with Red Background */
+#education {
+    background: red;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#education h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#education ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#education li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Experience Section with Red Background */
+#experience {
+    background: red;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#experience h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#experience p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Skills Section */
+#skills {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 1.2em;
+}
+
+/* Contact Section */
+#contact {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: darkred;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1em;
+}
